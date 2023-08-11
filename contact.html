@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--The HTMlS specification covers all of the characters and symbol in the world-->
+  <meta charset="UTF-8">
+  <!--This meta tag is very important for responsible design, it addresses the scaling of elements-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--linking the CSS to the HTML page-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <!--Adding a very important tag  title tag-->
+  <title>Contact Page</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><img src="img/logo.png" alt=""></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="product.html" data-after="Service">Product Page</a></li>
+            <li><a href="aboutus.html" data-after="Projects">About Us</a></li>
+            <li><a href="#" data-after="About">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>Welcome To<span></span></h1>
+        <h1>CONTACT PAGE <span></span></h1>
+        <a href="#projects" type="button" class="cta">Explore</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Contact Section -->
+  <!-- Contact Section -->
+<section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <!-- Existing contact items here -->
+      </div>
+      <div class="contact-form">
+        <h1 class="section-title">Get in Touch</h1>
+        <form action="submit_form.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="cta">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span></span>IND<span>IT</span>AG</h1>
+      </div>
+      <h2>Your Complete Spices Place</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2023 INDITAG. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
